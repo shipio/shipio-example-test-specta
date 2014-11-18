@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1683BE9040631EC20314FE4A /* libPods-SpectaTestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDED141323C3250778F18D1 /* libPods-SpectaTestAppTests.a */; };
+		AEB310F41A1BB819000CD5CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB310F31A1BB819000CD5CD /* main.m */; };
+		AEB310F71A1BB819000CD5CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB310F61A1BB819000CD5CD /* AppDelegate.m */; };
+		AEB310FA1A1BB819000CD5CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB310F91A1BB819000CD5CD /* ViewController.m */; };
+		AEB310FD1A1BB819000CD5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB310FB1A1BB819000CD5CD /* Main.storyboard */; };
+		AEB310FF1A1BB819000CD5CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB310FE1A1BB819000CD5CD /* Images.xcassets */; };
+		AEB311021A1BB819000CD5CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB311001A1BB819000CD5CD /* LaunchScreen.xib */; };
+		AEB3110E1A1BB819000CD5CD /* SpectaTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB3110D1A1BB819000CD5CD /* SpectaTestAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEB311081A1BB819000CD5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB310E61A1BB819000CD5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB310ED1A1BB819000CD5CD;
+			remoteInfo = SpectaTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		477B1C6BEA639E9692C0748A /* Pods-SpectaTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpectaTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpectaTestAppTests/Pods-SpectaTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CDED141323C3250778F18D1 /* libPods-SpectaTestAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpectaTestAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9850BFAF63440DF5593238FD /* Pods-SpectaTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpectaTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpectaTestAppTests/Pods-SpectaTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEB310EE1A1BB819000CD5CD /* SpectaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB310F21A1BB819000CD5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB310F31A1BB819000CD5CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB310F51A1BB819000CD5CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEB310F61A1BB819000CD5CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEB310F81A1BB819000CD5CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEB310F91A1BB819000CD5CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEB310FC1A1BB819000CD5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEB310FE1A1BB819000CD5CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEB311011A1BB819000CD5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AEB311071A1BB819000CD5CD /* SpectaTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpectaTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB3110C1A1BB819000CD5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB3110D1A1BB819000CD5CD /* SpectaTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpectaTestAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB310EB1A1BB819000CD5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB311041A1BB819000CD5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1683BE9040631EC20314FE4A /* libPods-SpectaTestAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433FC9DFB1352791898AC123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CDED141323C3250778F18D1 /* libPods-SpectaTestAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C7D5AC4DFA4E8CC3B51618B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				477B1C6BEA639E9692C0748A /* Pods-SpectaTestAppTests.debug.xcconfig */,
+				9850BFAF63440DF5593238FD /* Pods-SpectaTestAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEB310E51A1BB819000CD5CD = {
+			isa = PBXGroup;
+			children = (
+				AEB310F01A1BB819000CD5CD /* SpectaTestApp */,
+				AEB3110A1A1BB819000CD5CD /* SpectaTestAppTests */,
+				AEB310EF1A1BB819000CD5CD /* Products */,
+				9C7D5AC4DFA4E8CC3B51618B /* Pods */,
+				433FC9DFB1352791898AC123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB310EF1A1BB819000CD5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB310EE1A1BB819000CD5CD /* SpectaTestApp.app */,
+				AEB311071A1BB819000CD5CD /* SpectaTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB310F01A1BB819000CD5CD /* SpectaTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				AEB310F51A1BB819000CD5CD /* AppDelegate.h */,
+				AEB310F61A1BB819000CD5CD /* AppDelegate.m */,
+				AEB310F81A1BB819000CD5CD /* ViewController.h */,
+				AEB310F91A1BB819000CD5CD /* ViewController.m */,
+				AEB310FB1A1BB819000CD5CD /* Main.storyboard */,
+				AEB310FE1A1BB819000CD5CD /* Images.xcassets */,
+				AEB311001A1BB819000CD5CD /* LaunchScreen.xib */,
+				AEB310F11A1BB819000CD5CD /* Supporting Files */,
+			);
+			path = SpectaTestApp;
+			sourceTree = "<group>";
+		};
+		AEB310F11A1BB819000CD5CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB310F21A1BB819000CD5CD /* Info.plist */,
+				AEB310F31A1BB819000CD5CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB3110A1A1BB819000CD5CD /* SpectaTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3110D1A1BB819000CD5CD /* SpectaTestAppTests.m */,
+				AEB3110B1A1BB819000CD5CD /* Supporting Files */,
+			);
+			path = SpectaTestAppTests;
+			sourceTree = "<group>";
+		};
+		AEB3110B1A1BB819000CD5CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3110C1A1BB819000CD5CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB310ED1A1BB819000CD5CD /* SpectaTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB311111A1BB819000CD5CD /* Build configuration list for PBXNativeTarget "SpectaTestApp" */;
+			buildPhases = (
+				AEB310EA1A1BB819000CD5CD /* Sources */,
+				AEB310EB1A1BB819000CD5CD /* Frameworks */,
+				AEB310EC1A1BB819000CD5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpectaTestApp;
+			productName = SpectaTestApp;
+			productReference = AEB310EE1A1BB819000CD5CD /* SpectaTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEB311061A1BB819000CD5CD /* SpectaTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB311141A1BB819000CD5CD /* Build configuration list for PBXNativeTarget "SpectaTestAppTests" */;
+			buildPhases = (
+				A0629812A38C65A2C7F91A8A /* Check Pods Manifest.lock */,
+				AEB311031A1BB819000CD5CD /* Sources */,
+				AEB311041A1BB819000CD5CD /* Frameworks */,
+				AEB311051A1BB819000CD5CD /* Resources */,
+				8BADB7FA815AA32BCA5C339B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB311091A1BB819000CD5CD /* PBXTargetDependency */,
+			);
+			name = SpectaTestAppTests;
+			productName = SpectaTestAppTests;
+			productReference = AEB311071A1BB819000CD5CD /* SpectaTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB310E61A1BB819000CD5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = shipio;
+				TargetAttributes = {
+					AEB310ED1A1BB819000CD5CD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AEB311061A1BB819000CD5CD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = AEB310ED1A1BB819000CD5CD;
+					};
+				};
+			};
+			buildConfigurationList = AEB310E91A1BB819000CD5CD /* Build configuration list for PBXProject "SpectaTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEB310E51A1BB819000CD5CD;
+			productRefGroup = AEB310EF1A1BB819000CD5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB310ED1A1BB819000CD5CD /* SpectaTestApp */,
+				AEB311061A1BB819000CD5CD /* SpectaTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB310EC1A1BB819000CD5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB310FD1A1BB819000CD5CD /* Main.storyboard in Resources */,
+				AEB311021A1BB819000CD5CD /* LaunchScreen.xib in Resources */,
+				AEB310FF1A1BB819000CD5CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB311051A1BB819000CD5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BADB7FA815AA32BCA5C339B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpectaTestAppTests/Pods-SpectaTestAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0629812A38C65A2C7F91A8A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB310EA1A1BB819000CD5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB310FA1A1BB819000CD5CD /* ViewController.m in Sources */,
+				AEB310F71A1BB819000CD5CD /* AppDelegate.m in Sources */,
+				AEB310F41A1BB819000CD5CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB311031A1BB819000CD5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB3110E1A1BB819000CD5CD /* SpectaTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEB311091A1BB819000CD5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB310ED1A1BB819000CD5CD /* SpectaTestApp */;
+			targetProxy = AEB311081A1BB819000CD5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEB310FB1A1BB819000CD5CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB310FC1A1BB819000CD5CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEB311001A1BB819000CD5CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB311011A1BB819000CD5CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB3110F1A1BB819000CD5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEB311101A1BB819000CD5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB311121A1BB819000CD5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpectaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEB311131A1BB819000CD5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpectaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEB311151A1BB819000CD5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477B1C6BEA639E9692C0748A /* Pods-SpectaTestAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpectaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectaTestApp.app/SpectaTestApp";
+			};
+			name = Debug;
+		};
+		AEB311161A1BB819000CD5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9850BFAF63440DF5593238FD /* Pods-SpectaTestAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpectaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpectaTestApp.app/SpectaTestApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB310E91A1BB819000CD5CD /* Build configuration list for PBXProject "SpectaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB3110F1A1BB819000CD5CD /* Debug */,
+				AEB311101A1BB819000CD5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB311111A1BB819000CD5CD /* Build configuration list for PBXNativeTarget "SpectaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB311121A1BB819000CD5CD /* Debug */,
+				AEB311131A1BB819000CD5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB311141A1BB819000CD5CD /* Build configuration list for PBXNativeTarget "SpectaTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB311151A1BB819000CD5CD /* Debug */,
+				AEB311161A1BB819000CD5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB310E61A1BB819000CD5CD /* Project object */;
+}
